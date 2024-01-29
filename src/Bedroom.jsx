@@ -2,7 +2,7 @@ const Bedroom = (props) => {
   return (
     <>
       <div>
-        Bedroom
+        Bedroom {props.details}
       </div>
 
     </>

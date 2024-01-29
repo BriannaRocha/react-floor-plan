@@ -1,18 +1,13 @@
 import "./App.css"
-import Bedroom from "./Bedroom"
-import Kitchen from "./Kitchen"
+
+import FloorPlan from "./FloorPlan"
 
 function App() {
   return (
-    <>
-      <Bedroom bedNum={1} />
-      <Kitchen />
-      <Bedroom bedNum={2} />
-      <Bedroom bedNum={3} />
-      
-    </>
+    <div>
+      <FloorPlan />
+    </div>
   )
 }
 
 export default App
-
