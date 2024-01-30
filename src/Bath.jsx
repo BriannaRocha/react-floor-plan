@@ -1,12 +1,8 @@
-const FullBath = (props) => {
+const Bath = (props) => {
   return (
-    <>
-      <div>
-        
-      </div>
-
-    </>
+    <div>
+      {props.details.size}
+    </div>
   )
 }
-
-export default FullBath
+export default Bath
