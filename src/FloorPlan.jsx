@@ -1,6 +1,7 @@
 import Bedroom from "./Bedroom"
 import Kitchen from "./Kitchen"
 import Bath from "./Bath"
+import LivingRoom from "./LivingRoom"
 
 
 function FloorPlan() {
@@ -10,6 +11,7 @@ function FloorPlan() {
       <Kitchen />
       <Bath  details={{size: 'Full Bath'}}/>
       <Bedroom details={2} />
+      <LivingRoom />
       <Bath  details={{size: 'Half Bath'}}/>
       <Bedroom details={3} />
       
