@@ -7,13 +7,13 @@ import LivingRoom from "./LivingRoom"
 function FloorPlan() {
   return (
     <>
-      <Bedroom details={1} />
+      <Bedroom bedNum={1} />
       <Kitchen />
-      <Bath  details={{size: 'Full Bath'}}/>
-      <Bedroom details={2} />
+      <Bath size='Full Bath' />
+      <Bedroom bedNum={2} />
       <LivingRoom />
-      <Bath  details={{size: 'Half Bath'}}/>
-      <Bedroom details={3} />
+      <Bath size='Half Bath' />
+      <Bedroom bedNum={3} />
       
     </>
   )
